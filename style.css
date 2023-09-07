@@ -1,7 +1,9 @@
 .dark{
   color: rgb(250, 247, 243);
   background-color: black;
+  padding: 20px;
 }
+
 h1{
   font-family:fantasy;
   font-weight:bolder;
@@ -9,16 +11,18 @@ h1{
   font-size: 45px;
   margin-bottom: 0px;
 }
-h2{
+h3{
   text-align: center;
   font-family: monospace;
   font-weight: bold;
+  font-size: 25px;
   color: rgb(196, 164, 124);
 }
-header p {
+header h2 {
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 30px;
   font-size: larger;
 }
 
@@ -36,6 +40,7 @@ footer{
 
 
 img{
+  /* I tried to make a circle centered photo */
   border-radius: 50%;
   border:3px solid bisque ;
   display: block;
@@ -48,14 +53,16 @@ img{
 
 .line-Up{
   text-align: left;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 hr {
   margin-top: 60px;
   margin-bottom: 40px;
 }
+
+
 
 a:link {
   color: rgb(219, 45, 152);
